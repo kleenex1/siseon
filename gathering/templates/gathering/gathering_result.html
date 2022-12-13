@@ -152,8 +152,6 @@
                     {% for c in i.vote_set.all %}
                       <a style="text-decoration:none" href={% url 'accounts:detail' c.user.pk %}>{{c}}&nbsp;</a>
 
-                        <br>
-                      {% endfor %}
                     {% endfor %}
                     <br>
                   {% endfor %}
