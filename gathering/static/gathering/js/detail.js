@@ -841,7 +841,6 @@ document.querySelector("#result").addEventListener('click', function(e) {
   resultModal.classList.remove('option-inactive')
   resultModal.classList.add('option-active')
 
-  console.log(resultModal)
 })
 
 document.querySelector("#close").addEventListener('click', function(e){
